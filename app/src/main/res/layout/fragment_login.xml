@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginFragment"
+    android:background="#FBE6A5"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="20dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="signup"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="210dp"
+        android:textSize="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in page"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="100dp"
+        android:textSize="40dp"
+
+
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User name"
+        android:layout_marginLeft="50dp"
+
+        android:textSize="20dp"
+        android:layout_marginTop="85dp"
+        android:layout_below="@+id/title"
+        />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="password"
+        android:layout_below="@+id/Username"
+        android:layout_marginTop="50dp"
+        android:layout_alignLeft="@+id/Username"
+        android:textSize="20dp"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter password"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@+id/editTextmail"
+        android:layout_marginTop="27dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editTextmail"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Enter email"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/title"
+        />
+
+</RelativeLayout>
+
+</FrameLayout>
